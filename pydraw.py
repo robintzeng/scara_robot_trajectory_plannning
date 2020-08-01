@@ -208,7 +208,7 @@ class Entity(pg.sprite.Sprite):
         # self.image = pg.Surface((width, height), pg.SRCALPHA)
         # pg.draw.rect(self.image, pg.Color(
         #    'dodgerblue1'), [0, 0, width, height], 0)
-        self.image = pg.image.load("link.png")
+        self.image = pg.image.load("figure/link.png")
         self.image = pg.transform.scale(self.image, (width, height))
         # A reference to the original image to preserve the quality.
         self.orig_image = self.image
